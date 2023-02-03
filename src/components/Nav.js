@@ -29,7 +29,9 @@ const items = [
 const Nav = () => {
     return (
         <nav>
-            {items.map((project) => (<li><a href= {project.ref}>{project.name}</a></li>))}
+            <ul>
+                {items.map((project) => (<li><a href= {project.ref}>{project.name}</a></li>))}
+            </ul>
         </nav>
     )
 }
