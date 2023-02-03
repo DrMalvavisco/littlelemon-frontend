@@ -9,6 +9,9 @@ header {
   background-color: red;
 }
 
+.logo {
+  width: 200px;
+}
 .container-header {
   width: 1200px;
   height: 70px;
@@ -21,6 +24,7 @@ header {
 
 nav {
   text-align: center;
+  margin-left: auto;
 }
 
 nav ul {
@@ -36,6 +40,7 @@ ul li {
 a:link, a:visited {
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
   color: #333;
 }
 
@@ -43,3 +48,149 @@ a:hover, a:active {
   color: #f4ce14;
 }
 
+section {
+  width: 100%;
+}
+
+.landing-section {
+  background-color: #495e57;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: blue;
+  display: flex;
+}
+
+.landing-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: green;
+}
+.main-header {
+  color: #f4ce14;
+  font-size: 56px;
+}
+
+.location {
+  color: #edefee;
+  font-size: 32px;
+}
+
+.description {
+  color: #edefee;
+  font-size: 20px;
+
+}
+
+.landing-img {
+  width: 395px;
+  height: 345px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: auto;
+}
+
+.btn-cta {
+  width: 200px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #495e57;
+  background-color: #f4ce14;
+  color: #333;
+  cursor: pointer;
+}
+
+.btn-cta:hover {
+  background-color: #495e57;
+  color: #f4ce14;
+}
+
+footer {
+  color: #edefee;
+  font-size: large;
+  background-color: #333;
+  text-align: center;
+  height: 120px;
+  padding: 30px;
+}
+
+.specials-section {
+  background-color: #f4ce14;
+}
+
+.container-specials {
+  padding: 100px 25px;
+  flex-direction: column;
+  gap: 60px;
+  background-color: aqua;
+}
+
+.specials-title-container {
+  display: flex;
+}
+
+.specials-title {
+  font-weight: 500;
+  font-size: 40px;
+  color: #333;
+}
+
+.specials-btn {
+  margin-left: auto;
+}
+
+.cards-container {
+  display: flex;
+  gap: 10%;
+}
+.card {
+  width: 30%;
+  background-color: #edefee;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  color: #333;
+}
+
+.card-details {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title-price-container {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.card-price {
+  margin-left: auto;
+  font-size: 16px;
+  color: #ee9972;
+  font-weight: bold;
+}
+
+.card-description {
+  color: #495e57;
+  font-size: 16px;
+}
+
+.delivery-link:link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}

@@ -1,12 +1,15 @@
 import './App.css';
 import Header from "./components/Header"
-import Main from './components/Main';
 import Footer from './components/Footer';
+import LandingSection from './components/LandingSection';
+import SpecialsSection from './components/SpecialsSection';
+
 function App() {
   return (
     <>
       <Header />
-      <Main />
+      <LandingSection />
+      <SpecialsSection />
       <Footer />
     </>
   );
