@@ -14,7 +14,7 @@ const LandingSection = () => {
                     <p className="description">{description}</p>
                     <button className="btn-cta">{cta_text}</button>
                 </div>
-                <img className="landing-img" src={food}/>
+                <img className="landing-img" src={food} alt="A photo of a chef"/>
             </div>
         </section>
     )

@@ -6,7 +6,6 @@
 
 header {
   width: 100%;
-  background-color: red;
 }
 
 .logo {
@@ -60,7 +59,6 @@ section {
   width: 1200px;
   margin: 0 auto;
   padding: 25px;
-  background-color: blue;
   display: flex;
 }
 
@@ -69,8 +67,8 @@ section {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: green;
 }
+
 .main-header {
   color: #f4ce14;
   font-size: 56px;
@@ -108,28 +106,14 @@ section {
 }
 
 .btn-cta:hover {
-  background-color: #495e57;
+  background-color: #edefee;
   color: #f4ce14;
-}
-
-footer {
-  color: #edefee;
-  font-size: large;
-  background-color: #333;
-  text-align: center;
-  height: 120px;
-  padding: 30px;
-}
-
-.specials-section {
-  background-color: #f4ce14;
 }
 
 .container-specials {
   padding: 100px 25px;
   flex-direction: column;
   gap: 60px;
-  background-color: aqua;
 }
 
 .specials-title-container {
@@ -193,4 +177,81 @@ footer {
   font-size: 16px;
   font-weight: bold;
   margin-right: 10px;
+}
+
+footer {
+  color: #edefee;
+  font-size: large;
+  background-color: #333;
+  text-align: center;
+  height: 120px;
+  padding: 30px;
+}
+
+.testimonial-section {
+  background-color: #495e57;
+  padding: 90px 0;
+}
+
+.container-testimonial {
+  flex-direction: column;
+  gap: 40px;
+}
+
+.testimonial-heading {
+  font-size: 36px;
+  text-align: center;
+  color: #edefee;
+}
+
+.testimonials-container {
+  display: flex;
+  gap: 10%;
+}
+.testimonial {
+  background-color: #edefee;
+  width: 200px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 5px solid #ee9972;
+  border-radius: 30px 0px 30px 30px;
+  
+}
+
+.rating-heading {
+  font-size: 14px;
+  color: #333;
+}
+
+.rating {
+  display: flex;
+  gap: 3px;
+}
+
+.star {
+  width: 20px;
+}
+.testimonial-person {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+.review-text {
+  font-size: 14px;
+  font-style: italic;
+  color: #495e57;
 }

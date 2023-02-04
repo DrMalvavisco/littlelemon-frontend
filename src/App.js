@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Footer from './components/Footer';
 import LandingSection from './components/LandingSection';
 import SpecialsSection from './components/SpecialsSection';
+import TestimonialsSection from './components/TestimonialsSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <LandingSection />
       <SpecialsSection />
+      <TestimonialsSection />
       <Footer />
     </>
   );
